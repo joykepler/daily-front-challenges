@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <script src="script.js" defer></script>
     <link rel="shortcut icon" type="imagex/png" href="./img/logo.png">
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="cabecalho__perfil">
@@ -18,7 +20,7 @@
             <img src="img/search.png" alt="Pesquisa" class="pesquisa__lupa">
             <img src="img/msg.png" alt="Mensagens" class="pesquisa__mensagens">
         </div>
-    </header> 
+    </header>
     <main>
         <section class="meu-itau">
             <h2 class="meu-itau__titulo">meu Itaú</h2>
@@ -33,20 +35,35 @@
             <div class="pagamentos__pagar">
                 <img src="img/pay.png" alt="Pagar" class="pagar__imagem">
                 <h2>pagar</h2>
+            </div>
             <div class="pagamentos__cartao">
                 <img src="img/card.png" alt="Cartão" class="cartao__imagem">
                 <h2>cartão virtual</h2>
             </div>
         </section>
+
+        <section class="conta">
+            <div class="conta__conteiner">
+                <img src="img/logo.png" alt="Logo Itaú" class="conta__logo">
+                <div class="conta__saldo">
+                    <h4 class="saldo__texto">saldo em conta</h4>
+                    <img src="./img/more-black.png" alt="Saldo" class="saldo__imagem">
+                </div>
+                <hr>
+                <div class="conta__extrato">
+                    <h4 class="extrato__texto">conferir extrato</h4>
+                    <img src="img/blue-arrow.png" alt="Seta" class="extrato__seta">
+                </div>
+                <div class="conta__limite">
+                    <h3 class="limite__texto">Limite da Conta disponível</h3>
+                    <div class="limite__imagens">
+                        <img src="./img/more-black.png" alt="Limite" class="limite__imagem">
+                        <img src="img/gray-arrow.png" alt="Seta" class="limite__seta">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-
-    <!-- <section class="conta">
-        <img src="img/logo.png" alt="Logo Itaú">
-        <h4>saldo em conta</h4>
-        <hr>
-        <h4>conferir extrato</h4>
-        <h3>Limite da Conta disponível</h3>
-    </section> -->
-
 </body>
+
 </html>
