@@ -75,6 +75,18 @@ body {
   width: 70px;
 }
 
+.pagamentos {
+  display: flex;
+}
+
+.pagamentos__pix, .pagamentos__pagar, .pagamentos__cartao {
+  background-color: var(--white);
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
 @media screen and (min-width: 767px) and (max-width: 1023px) {
 
 }
